@@ -4,7 +4,7 @@ services:
     ports:
       - "8080:3000"
     environment:
-      MONGO_URI: mongodb://localhost:27017/docker-challenge
+      MONGO_URI: mongodb://mongo:27017/docker-challenge
     depends_on:
       - mongo
 
