@@ -16,7 +16,7 @@ app.use(
 );
 
 connectDB();
-
+// new automation check with git
 app.get("/", (req, res) => {
   res.send("Welcome to our users management app 🧑🏽‍💻");
 });
